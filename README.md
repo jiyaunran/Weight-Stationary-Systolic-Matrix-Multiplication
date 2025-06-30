@@ -6,7 +6,7 @@ The implemented design is a **weight-stationary systolic array** architecture, w
 
 ### Features
 - **Weight-Stationary Dataflow**: Optimized for low-cost weight reuse.
-- **Soft-IP Style Design**: The number of processing elements (mesh size) is configurable via parameters.
+- **Soft-IP Style Design**: The number of processing elements (mesh size) and bit number of input data is configurable via parameters.
 - **Square Matrix Multiplication**: Currently supports multiplication of two square matrices of equal size.
 
 ### Usage
