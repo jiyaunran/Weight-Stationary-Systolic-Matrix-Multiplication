@@ -12,5 +12,9 @@ The implemented design is a **weight-stationary systolic array** architecture, w
 ### Usage
 This project is intended for educational purposes, and as a demonstration of systolic architecture and parameterized Verilog design.
 
+### Files
+- **MAU**: Matrix Accumulation Unit.  Processing element (PE) in the systolic array.
+- **MA**:  Matrix Accumulator. Interfaces with the mesh and handles input/output dataflow control.
+
 ## Future Work
 The next step will be extending this design to support 2D convolution operations, enabling the systolic array to be applied in CNN inference acceleration.
